@@ -77,7 +77,8 @@ nheqminer -l zec.suprnova.cc:2142 -u peakay.user -p password -t threadCount
 nheqminer  -l zmine.io:1337 -u ZcashTransparentAddress
 
 ##nicehash
-tbd
+./nheqminer -l equihash.eu.nicehash.com:3357 -u 1JKqDBTQ1NKFQNEReUDqRpHYUaoVc9BFSG.worker10 -t 6
+
 
 ## Donations
 If you feel this project is useful to you. Feel free to donate.
