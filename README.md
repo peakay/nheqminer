@@ -14,7 +14,7 @@ Open **nheqminer.sln** under **nheqminer/nheqminer.sln** and build.
 You should have **CMake** installed (2.8 minimal version), boost (install from the repositories or download boost manually build and install it manually), download the sources manually or via git. 
 Under Ubuntu open a terminal and run the following commands:
   - `sudo apt-get install cmake build-essential libboost-all-dev`
-  - `git clone https://github.com/sarath-hotspot/nheqminer.git`
+  - `git clone https://github.com/peakay/nheqminer.git`
   - `cd nheqminer/nheqminer`
   - `mkdir build`
   - `cd build`
@@ -25,7 +25,7 @@ Under Ubuntu open a terminal and run the following commands:
 ## Linux (Ubuntu/Debian based, Tested on Ubuntu 16.04):
 To build under Ubuntu Linux make sure you have Qt5 installed. You can install it manually from [Qt website](https://www.qt.io/) or install it from the command line: `sudo apt-get install qt5-default`.
 Open a terminal and cd to nheqminer root folder and run the following commands (make sure you have qmake in your PATH, if installed manually from Qt website you will have to export it to your PATH):
-  - `git clone https://github.com/sarath-hotspot/nheqminer.git`
+  - `git clone https://github.com/peakay/nheqminer.git`
   - `cd nheqminer`
   - `mkdir build`
   - `cd build`
@@ -71,11 +71,13 @@ My integration of Xenoncat's code in nheqminer works only in Linux (I did not ve
 
 ## Pointing this miner to other stratum based pools. 
 ### supernova
-nheqminer -l zec.suprnova.cc:2142 -u username.workername -p password -t threadCount 
+nheqminer -l zec.suprnova.cc:2142 -u peakay.user -p password -t threadCount 
 
 ### zmine
 nheqminer  -l zmine.io:1337 -u ZcashTransparentAddress
 
+##nicehash
+tbd
 
 ## Donations
 If you feel this project is useful to you. Feel free to donate.
