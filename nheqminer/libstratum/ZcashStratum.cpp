@@ -160,8 +160,8 @@ void static ZcashMinerThread(ZcashMiner* miner, int size, int pos)
 		BOOST_LOG_CUSTOM(info, pos) << "Using Xenoncat's AVX2 solver. ";
 	}
 	else {
-		MODE = 0;
-		BOOST_LOG_CUSTOM(info, pos) << "Using Tromp's solver.";
+		MODE = 1;
+		BOOST_LOG_CUSTOM(info, pos) << "Using Xenoncat's AVX solver. (I'm lazy, deal with it).";
 	}
 
 
